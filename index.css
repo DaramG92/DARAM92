@@ -8,7 +8,7 @@ a:link , a:visited{
     width:100%;
 }
 #wrap .section:nth-child(1){
-    background: url(./images/포폴-표지\(폰트깬거\).jpg) center/cover;
+    background: url(images/PORFOLIO1.jpg) center/cover;
     position: relative;
 }
 /* #wrap .section:nth-child(1) p{
@@ -32,28 +32,44 @@ a:link , a:visited{
     from{bottom:1%}
     to{bottom:5%}
 }
+.icon .cls-1{
+    fill:#cf6760;
+}
+.icon .cls-2{
+   fill:#2e2f7f;
+}
 .section .button svg{
-    width: 20%;
-    fill:lightcyan;
+    width: 15%;
+    fill:whitesmoke;
 }
-#wrap .section:nth-child(2){
+#wrap .section:nth-child(2) {
+    background: url(images/PORFOLIO2.jpg) center/cover;
+    position:relative;
 }
-#wrap .section:nth-child(2) .slide:nth-child(1){
-    background: url(./images/포폴-자기소개페이지\(폰트깬거\).jpg) center/cover;
-    cursor: pointer;
+.section .icon{
+    position: absolute;
+    top: 27%;
+    left: 73%;
+    width: 110px;
+    height: 110px;
+    animation: heart 1s infinite alternate;
 }
-#wrap .section:nth-child(2) .slide:nth-child(2){
-    background: url(images/281-tag-mockup.jpg) center/cover;
+.section .icon svg{
+    width: 100%;
+}
+@keyframes heart{
+    from{top:33%}
+    to{top:34%}
 }
 #wrap .section:nth-child(3){
-    background: url(images/Untitled-1.jpg) center/cover;
+    background: url(images/무지하우스-목업\(1920\).jpg);
 }
-#wrap .section:nth-child(4){
-    background: url(images/pf-s73-eve-set-14-mockup.jpg) center/cover;
+#wrap .section:nth-child(4) .slide:nth-child(1){
+    background: url(images/배너광고목업1.jpg);
 }
-#wrap .section:nth-child(5) .slide:nth-child(1){
-    background: url(images/TEST.jpg)center/cover;
+#wrap .section:nth-child(4) .slide:nth-child(2){
+    background: url(images/배너광고목업2.jpg);
 }
-#wrap .section:nth-child(5) .slide:nth-child(2){
-    background: url(images/TEST2.jpg) center/cover;
+#wrap .section:nth-child(5){
+    background: url(images/지식포스터-목업.jpg) center/cover; 
 }
