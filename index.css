@@ -43,7 +43,7 @@ a:link , a:visited{
     fill:whitesmoke;
 }
 #wrap .section:nth-child(2) {
-    background: url(images/PORFOLIO2.jpg) center/cover;
+    background: url(images/PORFOLIO2\(RE\).jpg) center/cover;
     position:relative;
 }
 .section .icon{
